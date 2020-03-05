@@ -1,0 +1,19 @@
+{
+  "@context": "https://linkedsoftwaredependencies.org/bundles/npm/@ldf/server/^3.0.0/components/context.jsonld",
+  "@id": "urn:ldf-server:my",
+  "import": "preset-qpf:config-defaults.json",
+    
+  "title": "Nanopublications LDF server",
+  "baseURL": "BASEURL",
+
+  "datasources": [
+    {
+      "@id": "ex:mySparqlDatasource",
+      "@type": "SparqlDatasource",
+      "datasourceTitle": "Nanopublications",
+      "datasourcePath": "np",
+      "description": "Nanopublications",
+      "sparqlEndpoint": "http://virtuoso:8890/sparql"
+    }
+  ]
+}
