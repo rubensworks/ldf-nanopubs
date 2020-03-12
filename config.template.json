@@ -13,7 +13,8 @@
       "datasourceTitle": "Nanopublications",
       "datasourcePath": "np",
       "description": "Nanopublications",
-      "sparqlEndpoint": "http://virtuoso:8890/sparql"
+      "sparqlEndpoint": "http://virtuoso:8890/sparql",
+      "sparqlForceTypedLiterals": true
     }
   ]
 }
