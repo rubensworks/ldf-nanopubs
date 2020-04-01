@@ -6,6 +6,8 @@
   "title": "Nanopublications LDF server",
   "baseURL": "BASEURL",
 
+  "protocol": "http",
+
   "datasources": [
     {
       "@id": "ex:mySparqlDatasource",
